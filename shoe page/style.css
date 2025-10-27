@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #bbb;
+    overflow: auto;
+}
+.top{
+    height: 40%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25rem;
+}
+#left{
+    height: 29vh;
+    width: 25vh;
+    padding-top: 3rem;
+}
+.top h1{
+    font-size: 5rem;
+    color: #696767;
+}
+
+.top h2{
+    font-size: 3rem;
+    color: #696767;
+}
+#centre{
+    height: 29vh;
+    width: 25vh;
+    border-radius: 1rem;
+    box-shadow: .1rem .1rem 1rem black;
+    background-image: url(./image&files/WMNS+AIR+JORDAN+1+RETRO+HI+OG.avif);
+    background-size: cover;
+    background-position: center;   
+}
+
+#centre:hover{
+    height: 35vh;
+    width: 30vh;
+    border-radius: 1.5rem;
+    box-shadow: .5rem .2rem 1rem black;
+    background-image: url(./image&files/WMNS+AIR+JORDAN+1+RETRO+HI+OG.avif);
+    background-size: cover;
+    background-position: center;
+    transition: .2s ease;
+}
+
+
+#parent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.9rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: rgb(158, 144, 135);
+}
+
+
+.child{
+    height: 45vh;
+    width: 35vh;
+    background-color: #e9e1e1;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem 1rem rgb(133, 123, 116);
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.child img{
+    height: 28vh;
+    width: 25vh;
+    object-fit: cover;
+    border-radius: 15%;
+    border: .1rem solid #bbb;
+}
+.child img:hover{
+    height: 32vh;
+    width: 27vh;
+    transition: .2s ease;
+    box-shadow: .2rem .2rem 1rem rgb(193, 188, 188);
+}
+.child h2{
+    color: #494646;
+}
+.child button{
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: rgb(184, 184, 213);
+    border: none;
+    font-weight: 550;
+    color: #413e3e;
+    cursor: pointer;
+}
+.child button:hover{
+    background-color: #413e3e;
+    color: #efecec;
+    transition: .2s ease-in-out;
+}
