@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: motion;
+    src: url(MotionPicture_PersonalUseOnly.ttf);
+}
+div{
+    height: 100%;
+    width: 100%;
+    background-image: url(tourism_ballon.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+    h1{
+        font-family: motion;
+        color: rgb(136, 146, 147);
+        font-size: 150px;
+        -webkit-text-stroke: 1px rgba(128, 126, 126, 0.505);
+        padding: 50px;
+    }
+    button{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        padding: 10px 20px;
+        color: rgb(96, 109, 137);
+        background-color: #CCB0A2;
+        border-radius: 20px;
+        border-color: antiquewhite;
+        cursor: pointer;
+        font-weight: 600;
+        font-style: italic;
+    }
+    
+}
